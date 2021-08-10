@@ -1,6 +1,6 @@
 
-int led_group_1_pin = 3; // I don't think we have access to pin 10 so I'm using 3
-int led_group_2_pin = 9;
+int led_group_1_pin = 9;
+int led_group_2_pin = 10;
 int analog_input = A0;
 int last_x_values[100] = {0}; // had a hacky implementation of value averaging before which didn't really do much, this one should be better but hasn't been tested
 void setup() {
